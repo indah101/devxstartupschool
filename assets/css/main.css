@@ -1188,12 +1188,12 @@ section,
   transition: 0.3s;
 }
 
-courses .course-content .read-more:hover {
+.courses .course-content .read-more:hover {
   background: color-mix(in srgb, var(--accent-color), transparent 20%);
   padding-right: 19px;
 }
 
-courses .course-content .read-more:hover i {
+.courses .course-content .read-more:hover i {
   margin-left: 10px;
 }
 .moree-btn {
