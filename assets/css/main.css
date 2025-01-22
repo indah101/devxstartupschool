@@ -1,16 +1,4 @@
-/**
-* Template Name: Mentor
-* Template URL: https://bootstrapmade.com/mentor-free-education-bootstrap-theme/
-* Updated: Aug 07 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# Font & Color Variables
-# Help: https://bootstrapmade.com/color-system/
---------------------------------------------------------------*/
-/* Fonts */
 :root {
   --default-font: "Open Sans",  system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --heading-font: "Raleway",  sans-serif;
@@ -1207,6 +1195,23 @@ courses .course-content .read-more:hover {
 
 courses .course-content .read-more:hover i {
   margin-left: 10px;
+}
+.moree-btn {
+  display: inline-block;
+  background: color-mix(in srgb, var(--default-color), transparent 85%);
+  padding: 8px 40px 10px 40px;
+  color: var(--accent-color);
+  transition: all ease-in-out 0.4s;
+  border-radius: 50px;
+}
+
+.moree-btn i {
+  font-size: 14px;
+}
+
+.moree-btn:hover {
+  color: var(--background-color);
+  background: var(--accent-color);
 }
 
 
